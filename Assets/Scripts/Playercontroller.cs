@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Playercontroller : MonoBehaviour
 {
+    public float speed;
     private Rigidbody rb;
 
    void Start()
@@ -17,7 +18,7 @@ public class Playercontroller : MonoBehaviour
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
-        rb.AddForce(movement);
+        rb.AddForce(movement * speed);
     }
 
 }
