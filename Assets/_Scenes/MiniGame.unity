@@ -208,10 +208,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &73366539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,6 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688a2eeb26b5ff140a79203eed0efa99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 387752483}
 --- !u!1 &387752483
 GameObject:
   m_ObjectHideFlags: 0
